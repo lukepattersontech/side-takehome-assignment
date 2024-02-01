@@ -22,16 +22,20 @@
 ### Get all Properties by City
 
 `query GetPropertiesInKaty($city: String) { properties(city: $city) { address { city } } }`
+
 **Variables:**
 `{ "city":  "Katy" }`
+
 **Headers:**
 `Authorization` : `Bearer: 676cfd34-e706-4cce-87ca-97f947c43bd4`
 
 ### Add a Favorite
 
 `mutation AddFavorite($listingId: String) { addFavorite(listingId: $listingId) { listingId userId } }`
+
 **Variables:**
 `{ "listingId":  "49699701" }`
+
 **Headers:**
 `Authorization` : `Bearer: 676cfd34-e706-4cce-87ca-97f947c43bd4`
 
