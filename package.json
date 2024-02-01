@@ -1,0 +1,33 @@
+{
+  "name": "take-home-assignment-graphql-simplyrets-db",
+  "version": "1.0.0",
+  "description": "graphql, simplyrets, and database take-home assignment for interview candidates.",
+  "main": "index.js",
+  "engines": {
+    "node": "^16"
+  },
+  "scripts": {
+    "test": "jest",
+    "start:app": "node ./index.js",
+    "start:local": "nodemon -r dotenv/config ./local/run.js"
+  },
+  "dependencies": {
+    "apollo-datasource-mongodb": "^0.6.0",
+    "apollo-datasource-rest": "^3.7.0",
+    "apollo-server": "3.13.0",
+    "graphql": "16.8.1",
+    "mongodb": "4.14.0",
+    "mongoose": "^8.1.1"
+  },
+  "devDependencies": {
+    "dotenv": "^16.4.1",
+    "jest": "29.7.0",
+    "mongodb-memory-server": "8.16.0",
+    "mongodb-memory-server-core": "8.16.0",
+    "mongodb-memory-server-global": "8.16.0",
+    "nodemon": "^3.0.3"
+  },
+  "license": "UNLICENSED",
+  "author": "Side Inc.",
+  "repository": "https://github.com/reside-eng/take-home-assignment-graphql-simplyrets-db.git"
+}

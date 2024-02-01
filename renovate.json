@@ -1,0 +1,12 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["github>reside-eng/renovate-config:take-home-assignment"],
+  "packageRules": [
+    {
+      "description": "Group mongodb-memory-server deps",
+      "matchPackagePrefixes": ["mongodb-memory-server"],
+      "groupName": "MongoDB memory server",
+      "groupSlug": "mongodb-memory-server"
+    }
+  ]
+}
